@@ -7,12 +7,8 @@ Route::get('/', function () {
     return view('page.home');
 });
 
-Route::get('/profil', function () {
-    return view('page.profile');
-});
-
-Route::get('/proyek', function () {
-    return view('page.project');
+Route::get('/kontak', function () {
+    return view('page.kontak');
 });
 
 Route::get('/about', function () {
